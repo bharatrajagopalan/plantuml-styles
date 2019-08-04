@@ -1,0 +1,90 @@
+@startuml
+/'
+Sequence diagram skin
+
+Author: Bharat Rajagopalan
+
+'/
+
+
+
+
+
+'#589AD7'
+'#447ABC'
+
+'#C1DCFF'
+!define the_color #447ABC
+!define back_color #DAE3F2
+''#C1DCFF
+''#C1DCFF
+!define the_second_color #EEF6DF
+!define the_second_border_color #B8DEBD
+'#EEF6DF
+!define the_third_color #589AD7
+''
+
+
+
+skinparam NoteBorderColor  the_third_color
+'the_color
+skinparam NoteBackgroundColor #FFFFFF
+skinparam NoteFontColor the_color
+''#000000
+
+skinparam pathHoverColor green
+
+skinparam shadowing false
+'skinparam svgLinkTarget _blank
+
+skinparam sequence {
+
+	'ArrowColor #6AA537
+	'ArrowFontColor #528228
+	ArrowColor the_third_color
+	'the_color
+	ArrowFontColor the_color
+	''#000000
+
+	ActorBorderColor the_third_color
+	''#589AD7
+	LifeLineBorderColor the_second_border_color
+	'the_color
+	''#6AA537
+	LifeLineBackgroundColor the_second_color
+	'#E8F0D0'
+
+	ParticipantBorderColor back_color
+	'the_color
+	ParticipantBackgroundColor back_color
+
+	ParticipantFontSize 17
+	ParticipantFontColor the_color
+
+	ActorBackgroundColor the_third_color
+	''#589AD7
+	ActorFontColor the_color
+	ActorFontSize 17
+	ActorFontName Arial
+
+  ArrowFontName Arial
+
+	GroupBorderColor back_color
+	'GroupBackGroundColor the_second_color
+	GroupHeaderFontColor the_color
+	GroupBorderThickness 1
+	GroupFontColor the_color
+
+	'ReferenceHeaderBackgroundColor the_second_color
+	ReferenceBorderColor  back_color
+	ReferenceFontColor  the_color
+
+	TitleFontColor the_color
+	HeaderFontColor the_color
+	FooterFontColor the color
+
+	MessageAlign right
+}
+
+
+@enduml
