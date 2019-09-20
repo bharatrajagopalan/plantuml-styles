@@ -1,0 +1,47 @@
+@startuml
+
+'left to right direction
+
+skinparam linetype ortho
+skinparam componentStyle uml2
+
+''!define box_l1 #FAFAFA
+''!define box_l2 #FFFDF9
+
+''!define box_l1 #F1F1F1
+!define box_l1 #FFFFFF
+!define box_l2 #FAFAFA
+
+''!define capability_color #C1DCFF
+!define capability_color #DAE3F2
+'!define ibm_c #5989C4
+!define ibm_c #447ABC
+''!define ibm_c #558EE7
+''!define included_capability #EEF6DF
+!define included_capability #E3EFDA
+!define other_c #FEFED0
+
+skinparam  {
+  defaultTextAlignment center
+  RectangleRoundcorner 15
+
+  ArrowFontName Arial
+  ArrowColor ibm_c
+  ArrowFontColor ibm_c
+
+  RectangleFontColor ibm_c
+
+  RectangleBackgroundColor capability_color
+  RectangleBorderColor capability_color
+
+  'CardBackgroundColor #FFFFFF
+  'CardBorderColor #FFFFFF
+
+  TitleFontColor ibm_c
+
+  Shadowing false
+
+
+}
+
+@enduml
