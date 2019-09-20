@@ -1,0 +1,50 @@
+@startuml
+
+!define the_color #447ABC
+!define back_color #DAE3F2
+''#C1DCFF
+!define the_second_color #B8DEBD
+'#B8DEBD
+''#EEF6DF
+
+
+skinparam {
+  SwimlaneBorderColor  the_color
+  SwimlaneBorderThickness 3
+  SwimlaneTitleFontColor #FFFFFF
+  SwimlaneTitleBackgroundColor the_color
+   'SwimlaneTitleFontName
+   'SwimlaneTitleFontSize
+   'SwimlaneTitleFontStyle
+   'SwimlaneWidth
+   'SwimlaneWrapTitleWidth
+  'Shadowing false
+}
+
+skinparam Activity {
+  ArrowColor the_color
+  ArrowFontColor the_color
+  BackgroundColor back_color
+  BarColor the_color
+  
+  BorderColor the_color
+  'BorderThickness
+  DiamondBackgroundColor back_color
+  DiamondBorderColor the_color
+  DiamondFontColor the_color
+  'DiamondFontName
+  'DiamondFontSize
+  'DiamondFontStyle
+  'EndColor the_color
+  FontColor the_color
+  'FontName
+  'FontSize
+  'FontStyle
+  StartColor the_second_color
+  EndColor #833C0C
+  'back_color
+
+
+}
+
+@enduml
