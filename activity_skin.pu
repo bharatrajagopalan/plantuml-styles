@@ -9,8 +9,10 @@
 
 skinparam {
   SwimlaneBorderColor  the_color
-  'SwimlaneBorderThickness
-  SwimlaneTitleFontColor the_color
+  SwimlaneBorderThickness 3
+  SwimlaneTitleFontColor #FFFFFF
+  SwimlaneTitleBackgroundColor the_color
+  'SwimlaneTitleFontColor the_color
    'SwimlaneTitleFontName
    'SwimlaneTitleFontSize
    'SwimlaneTitleFontStyle
