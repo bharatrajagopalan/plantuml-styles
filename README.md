@@ -7,7 +7,7 @@ You can try all of the below examples on http://www.plantuml.com/plantuml
 ### Sequence Diagram
 
 
-![Sequence](http://www.plantuml.com/plantuml/svg/POunKiGm34Lxdq9KL8dx57iFgXsj91A38mTBPeVR4vmXCE32C_xFJryFIIat5bZSDvjYh7WVv-HBkpMJIaLTr4SgQxmjMD4hlk1SDioeSTilRsiUp3-oM5pHN6eqUMkY95TEE5TSh_QQTDnQ23HSU88iRY3e0SdJExe01O3pmG7sm_qh5qXmtrl0IrU-46Q7z0pSWVsGGnikDC6Js73qpAKJoIQ7n4LC7_sS-izLH5o-8_cpbYX3-9NI9m00)
+![Sequence](http://www.plantuml.com/plantuml/svg/POunKiGm34Lxdq9KL8dx57iFgXsj91A38mTBPeVR4vmXCE32C_xFJryFIIat5bZSDvjYh7WVv-HBkpMJIaLTr4SgQxmjMD4hlk1SDioeSTilRsiUp3-oM5pHN6eqUMkY95TEE5TSh_QQTDnQ23HSU88iRY3e0SdJExe01O3pmG7sm_qh5qXmtrl0IrU-46Q7z0pSWVsGGnikDC6Js73qpAKJoIQ7n4LC7_sS-izLH5o-8_cpbYX3-9NI9m00?sanitize=1)
 
 ```plantuml
 
